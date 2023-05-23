@@ -1,54 +1,158 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Natalia Diaz</title>
-  </head>
-  <body>
-    <nav>
-      <a href="#">Sobre mi</a>
-      <a href="#">Proyectos</a>
-      <a href="#">Contacto</a>
-    </nav>
-    <h1>Sobre mi</h1>
-    <figure>
-      <img src="./images/photo.png" alt="Natalia Diaz" />
-      <figcaption>
-        Natalia Diaz - Desarrolladora frontend
-      </figcaption>
-    </figure>
-   
-
-    <p>
-      Click
-      <a href="https://www.linkedin.com/in/natalia-diaz-m/" target="_blank">
-        AQUI</a
-      >
-      para conocer mi perfil de linkedin
-    </p>
-    <p>
-      Soy una <strong>desarrolladora frontend</strong> y
-      <em>web designer</em> apasionada por la tecnología y la
-      <strong>innovación</strong>. Mi objetivo es
-      <strong>crear soluciones digitales</strong> y <em>web</em> que satisfagan
-      las necesidades de los usuarios.
-    </p>
-    <h2>Mis hobbies</h2>
-    <ul>
-      <li>Escuchar música</li>
-      <li>Leer libros</li>
-      <li>Programar</li>
-      <li>Escribir</li>
-      <li>Diseñar</li>
-    </ul>
-
-    <h3>Herramientas favoritas</h3>
-    <ol>
-      <li>CSS</li>
-      <li>React</li>
-      <li>JavaScript</li>
-    </ol>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>N<span>D</span></h2>
+        </div>
+        <ul class="menu">
+          <li><a href="#"  class="active">Inicio</a></li>
+          <li><a href="#">Quien Soy</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info-content">
+        <img src="/images/img1.jpg" alt="foto1">
+        <div class="subtitle-content">
+          <h1>Natalia Diaz</h1>
+          <p>Frontend Developer & Creative Freelancer</p>    
+        </div>
+        
+      </div>
+      
+    </main>
+  </div>
+    <div class="about">
+      <img src="/images/code.jpg" alt="inspiracion">
+      <div class="about-info">
+        <h2>Acerca de mi</h2>
+        <div class="divider"></div>
+        <p>Desarrolladora web junior, con conocimientos en JAVA, manejo del Front-End y Back-End, variedad de frameworks, librerías y bases de datos SQL. Cuento con habilidades de planeación, y empatía que facilitan mi apertura al aprendizaje continuo. Me encuentro interesada en continuar desarrollando mi carrera en distintas áreas.</p>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="portfolio-heading">
+        <h2>Portafolio</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card__img">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-globe-asia"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-code"></i>
+            </a>
+          </div>
+          <div class="button-content">
+            <button class="project-details-button download-cv">
+              <a href="#">Ver más</a>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-globe-asia"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-code"></i>
+            </a>
+          </div>
+          <div class="button-content">
+            <button class="project-details-button download-cv">
+              <a href="#">Ver más</a>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-globe-asia"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-code"></i>
+            </a>
+          </div>
+          <div class="button-content">
+            <button class="project-details-button download-cv">
+              <a href="#">Ver más</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="contact-section">
+      <div class="contact-heading">
+        <h2>Contácto</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container-contact">
+        <div class="contact-img">
+          <img src="/images/grafico.png" alt="ilustracion">
+        </div>
+        <div class="contact-form">
+          <h4>Para más información...</h4>
+          <form action="https://formspree.io/f/xayzejqe" method="POST" class="form-group" target="_blank">
+            <input name="texto" type="text" placeholder="Name" class="input">
+            <input name="tel" type="tel" placeholder="Phone" class="input">
+            <input name="email" type="email" placeholder="Email" class="input">
+            <textarea name="message" placeholder="Place your message here..."></textarea>
+            <button type="submit" class="btn-submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="footer"> 
+      <div class="footer-content">
+        <h2>Natalia Diaz</h2>
+        <h5>Frontend Developer</h5>
+      </div>
+      <div class="sotial-networks">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter-square"></i>
+      </div>
+    </footer>
+</body>
 </html>
