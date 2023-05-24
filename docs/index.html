@@ -1,158 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-</head>
-<body>
-<div class="wrapper">
-    <header>
-      <nav class="navbar">
-        <div class="brand">
-          <h2>N<span>D</span></h2>
-        </div>
-        <ul class="menu">
-          <li><a href="#"  class="active">Inicio</a></li>
-          <li><a href="#">Quien Soy</a></li>
-          <li><a href="#">Portafolio</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="info-content">
-        <img src="./images/img1.jpg" alt="foto1">
-        <div class="subtitle-content">
-          <h1>Natalia Diaz</h1>
-          <p>Frontend Developer & Creative Freelancer</p>    
-        </div>
-        
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Portafolio</title>
+  </head>
+  <body>
+   <!-- HEADER INICIO -->
+   <header>
+    <section class="banner-home">
+    <div class="navbar">
+      <div class="logo">ND</div>
+      <ul class="links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mi</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contácto</a></li>
+      </ul>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
       </div>
+    </div>
+    <div class="dropdown_menu">
+      <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mi</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contácto</a></li>
+    </div>
+  </section>
+</header>
+ <!-- HEADER FINAL -->
+
+
+
+  <!-- PRIMERA SECTION -->
+
+ <section id="inicio" class="container-name">
+  <figure class="container-img-name">
+    <img src="./images/img1.jpg" alt="Natalia">
+  </figure>
+    <h1>Front end Developer</h1>
+    <hr/>
+    <h2>UXUI Design</h2>
+ </section>
+  
+
+    <div class="main-container">
+      <main class="main-content">
+        <h3 id="sobre-mi">Sobre mi</h3>
+        <p>
+          Mi pasión radica en el diseño y en la creación de soluciones digitales. Me encanta combinar mi conocimiento en desarrollo web con mi habilidad en diseño para crear experiencias únicas y atractivas.
+        </p>
+      </main>
+    </div>
+    <hr>
+    <h4 id="servicios">Servicios</h4>
+    <section class="news-container">
+      <div class="new-card">
+        <img src="./images/diseñoweb.jpg" alt="diseño web" />
+        <p>Diseño web</p>
+      </div>
+
+      <div class="new-card">
+        <img src="./images/desarrollo.jpg" alt="desarrollo web" />
+        <p>Desarrollo</p>
+      </div>
+
+      <div class="new-card">
+        <img src="./images/fotografia.jpg" alt="fotografia" />
+        <p>Fotografia</p>
+      </div>
+    </section>
+<hr>
+    <h4 id="proyectos">Proyectos</h4>
+    <section class="proyect-container">
+      <img src="./images/wlans.png" alt="wlans">
+      <div class="proyect-content">
+        <p>WLANS BOOKS store</p>
+      </div>
+    </section>
+
+    <section class="proyect-container">
+      <div class="proyect-content">
+        <p>Blog del café </p>
+      </div>
+      <img src="./images/coffe.png" alt="blog cafe">
+    </section>
+
+    <section class="proyect-container">
+      <img src="./images/readers.png" alt="blog lectores">
+      <div class="proyect-content">
+        <p>Readers Community</p>
+      </div>
+    </section>
+    <hr>
+    <section id="contacto" class="form-container">
+      <form id="myForm" class="form-content">
+      <h2>Formulario de contácto</h2>
+      <label for="nombre">Nombre
+        <input type="text" name="nombre"required id="nombre" >
+      </label>
+      <br>
       
-    </main>
-  </div>
-    <div class="about">
-      <img src="./images/code.jpg" alt="inspiracion">
-      <div class="about-info">
-        <h2>Acerca de mi</h2>
-        <div class="divider"></div>
-        <p>Desarrolladora web junior, con conocimientos en JAVA, manejo del Front-End y Back-End, variedad de frameworks, librerías y bases de datos SQL. Cuento con habilidades de planeación, y empatía que facilitan mi apertura al aprendizaje continuo. Me encuentro interesada en continuar desarrollando mi carrera en distintas áreas.</p>
-      </div>
-    </div>
-    <div class="portfolio">
-      <div class="portfolio-heading">
-        <h2>Portafolio</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="container">
-        <div class="card">
-          <div class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__proyect-links">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-          <div class="button-content">
-            <button class="project-details-button download-cv">
-              <a href="#">Ver más</a>
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__proyect-links">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-          <div class="button-content">
-            <button class="project-details-button download-cv">
-              <a href="#">Ver más</a>
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__proyect-links">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-          <div class="button-content">
-            <button class="project-details-button download-cv">
-              <a href="#">Ver más</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="contact-section">
-      <div class="contact-heading">
-        <h2>Contácto</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="container-contact">
-        <div class="contact-img">
-          <img src="./images/grafico.png" alt="ilustracion">
-        </div>
-        <div class="contact-form">
-          <h4>Para más información...</h4>
-          <form action="https://formspree.io/f/xayzejqe" method="POST" class="form-group" target="_blank">
-            <input name="texto" type="text" placeholder="Name" class="input">
-            <input name="tel" type="tel" placeholder="Phone" class="input">
-            <input name="email" type="email" placeholder="Email" class="input">
-            <textarea name="message" placeholder="Place your message here..."></textarea>
-            <button type="submit" class="btn-submit">Enviar</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  
-    <footer class="footer"> 
-      <div class="footer-content">
-        <h2>Natalia Diaz</h2>
-        <h5>Frontend Developer</h5>
-      </div>
-      <div class="sotial-networks">
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-twitter-square"></i>
-      </div>
+      <label for="telefono">Teléfono
+        <input type="tel" name="telefono" required id="telefono" >
+      </label>
+      <br>
+    
+      <label for="email">Email
+        <input type="email" name="email" required id="email" >
+      </label>
+      <br>
+      
+      <label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Dejame tu mensaje"></textarea>
+      </label>
+    
+      <button type="submit">Enviar</button>
+    </form>
+    </section>
+<br>
+    <footer>
+      <p>&copy; 2023, Desarrolladora Natalia Diaz - Todos los derechos reservados</p>
     </footer>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
